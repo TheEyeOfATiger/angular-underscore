@@ -1,0 +1,15 @@
+{
+  "name": "leumas-angular-underscore",
+  "authors": [
+    "Lazar Samuel <lazar.samuel@gmail.com>"
+  ],
+  "description": "To avoid override of $window._ variable from other idiots that write bad libraryes of javascript, i have written for angularjs an module that creates an service that exports underscore libarry 1.7.0",
+  "main": ["angular-underscore-module.js", "underscore.js"],
+  "keywords": [
+    "angularjs",
+    "underscore",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
