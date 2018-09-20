@@ -41,7 +41,12 @@ angular.module('underscore', []).factory('_', ['$window', function($window)
                 {
                     if(!obj[nPath] && defaultValue)
                         return defaultValue;
-                    return obj[nPath];
+                    if(_.isFunction(obj[nPath]))
+                    {
+                        return obj[nPath]();
+                    }
+                    else
+                        return obj[nPath];
                 } else {
                     return _.has(obj, nPath) && _.get(obj[nPath], remainingPath);
                 }
