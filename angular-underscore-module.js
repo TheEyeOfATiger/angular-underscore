@@ -6,9 +6,14 @@
 
 angular.module('underscore', []).factory('_', ['$window', function($window)
 {
+    var nPath;
+    var remainingPath;
+
     $window._2.mixin({
-        get: function(obj, path) {
+        get: function(obj, path, defaultValue) {
             if (!obj && !path) {
+                if(defaultValue)
+                    return defaultValue;
                 return undefined;
             } else {
                 var paths;
@@ -32,7 +37,10 @@ angular.module('underscore', []).factory('_', ['$window', function($window)
                     return result;
                 }, []).join('.');
 
-                if (_.isEmpty(remainingPath)) {
+                if (_.isEmpty(remainingPath))
+                {
+                    if(!obj[nPath] && defaultValue)
+                        return defaultValue;
                     return obj[nPath];
                 } else {
                     return _.has(obj, nPath) && _.get(obj[nPath], remainingPath);
