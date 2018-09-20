@@ -44,11 +44,13 @@
   // the browser, add `_` as a global object.
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = _;
+      var exports = module.exports = _;
     }
     exports._2 = _;
+    exports._ = _;
   } else {
     root._2 = _;
+    root._ = _;
   }
 
   // Current version.

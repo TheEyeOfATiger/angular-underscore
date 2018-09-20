@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37e3b038-3fdf-414b-b819-325c63804bac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/angular-underscore-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular-underscore-module.js" afterDir="false" />
-    </list>
+    <list default="true" id="37e3b038-3fdf-414b-b819-325c63804bac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="angular-underscore-module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-underscore-module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -118,12 +116,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534935017842</updated>
       <workItem from="1534935019053" duration="918000" />
-      <workItem from="1537452380275" duration="10000" />
+      <workItem from="1537452380275" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="928000" />
+    <option name="totallyTimeSpent" value="1243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -178,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-underscore-module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
         </state>
       </provider>
     </entry>
