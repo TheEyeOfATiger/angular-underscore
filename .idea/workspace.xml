@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37e3b038-3fdf-414b-b819-325c63804bac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/angular-underscore-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular-underscore-module.js" afterDir="false" />
-    </list>
+    <list default="true" id="37e3b038-3fdf-414b-b819-325c63804bac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -74,11 +72,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5780" />
+    <option name="y" value="-20" />
+    <option name="width" value="4840" />
+    <option name="height" value="2640" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,16 +134,15 @@
       <option name="presentableId" value="Default" />
       <updated>1534935017842</updated>
       <workItem from="1534935019053" duration="918000" />
-      <workItem from="1537452380275" duration="815000" />
+      <workItem from="1537452380275" duration="1415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1733000" />
+    <option name="totallyTimeSpent" value="2333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
