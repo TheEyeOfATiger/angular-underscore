@@ -10,12 +10,16 @@ angular.module('underscore', []).factory('_', ['$window', function($window)
     var remainingPath;
 
     $window._2.mixin({
-        get: function(obj, path, defaultValue) {
+        get: function(obj, path, defaultValue)
+        {
+            var remainingPath, nPath;
             if (!obj && !path) {
                 if(defaultValue)
                     return defaultValue;
                 return undefined;
-            } else {
+            }
+            else
+            {
                 var paths;
 
                 if (!_.isEmpty(path.match(/^\[\d\]/))) {
