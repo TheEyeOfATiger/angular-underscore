@@ -52,7 +52,7 @@ angular.module('underscore', []).factory('_', ['$window', function($window)
                     else
                         return obj[nPath];
                 } else {
-                    return _.has(obj, nPath) && _.get(obj[nPath], remainingPath);
+                    return _.has(obj, nPath) && _.get(obj[nPath], remainingPath, defaultValue);
                 }
             }
         }
